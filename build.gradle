@@ -1,0 +1,55 @@
+plugins {
+//    id 'java'
+//    id 'maven-publish'
+    id 'maven'
+}
+
+
+group 'com.github.cloudgc'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+}
+
+
+
+uploadArchives {
+    repositories {
+        mavenLocal()
+    }
+}
+//
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            pom {
+//                name = 'cloud platform for all'
+//                description = 'easy use platform'
+//                url = 'http://github.com/cloudgc/cloud-platform'
+//                properties = ["auth":"cloudgc"]
+//                licenses {
+//                    license {
+//                        name = 'The Apache License, Version 2.0'
+//                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = 'cloudgc'
+//                        name = 'cloudgc'
+//                        email = 'cloud@126.com'
+//                    }
+//                }
+//                scm {
+//                    connection = 'scm:git:git://github.com/cloudgc/cloud-platform.git'
+//                    developerConnection = 'scm:git:ssh://github.com/cloudgc/cloud-platform.git'
+//                    url = 'http://github.com/cloudgc/cloud-platform/'
+//                }
+//            }
+//        }
+//    }
+//    repositories {
+//        mavenLocal()
+//    }
+//}

@@ -1,3 +1,47 @@
+# maven #
+target
+!.mvn/wrapper/maven-wrapper.jar
+
+logs
+
+# windows #
+Thumbs.db
+
+# Mac #
+.DS_Store
+
+# eclipse #
+.settings
+.project
+.classpath
+.log
+*.class
+.apt_generated
+.factorypath
+.springBeans
+
+# idea #
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# gradle
 .gradle
 /build/
 

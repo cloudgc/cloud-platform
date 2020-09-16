@@ -1,0 +1,4 @@
+rootProject.name = 'cloud-platform'
+include 'cloud-platform-bom'
+include 'cloud-platfrom-core'
+
